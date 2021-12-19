@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Members: Le Ngoc Hung
+          Members: Le Ngoc Hưng
         </a>
       </header>
     </div>

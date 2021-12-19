@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Members: Le Ngoc Hưng
+          Members: Le Ngoc Hưng, Nguyen Hoang Chi Bao
         </a>
       </header>
     </div>

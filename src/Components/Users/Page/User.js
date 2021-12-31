@@ -15,20 +15,24 @@ export default function User() {
     return (
         <>
             <Router>
-                <div className="container">
-                    <Header />
-                    <Switch>
-                        <Route path="/" exact component={Home} />
-                        <Route path="/transaction" component={Transaction} />
-                        <Route path="/coinnew" component={Coinnew} />
-                        <Route path="/news" component={News} />
-                        <Route path="/contact" component={Contact} />
-                        <Route path="/login" component={Login} />
-                        <Route path="/registration" component={Registration} />
-                        <Route path="/account" component={Account} />
-                    </Switch>
-                    <Footer />
-                </div>
+                <header style={{backgroundColor: '#41225d'}}>
+                    <div className="container">
+                        <Header/>
+                    </div>
+                </header>
+                <article>
+                        <Switch>
+                            <Route path="/" exact component={Home} />
+                            <Route path="/transaction" component={Transaction} />
+                            <Route path="/coinnew" component={Coinnew} />
+                            <Route path="/news" component={News} />
+                            <Route path="/contact" component={Contact} />
+                            <Route path="/login" component={Login} />
+                            <Route path="/registration" component={Registration} />
+                            <Route path="/account" component={Account} />
+                        </Switch>
+                </article>
+                <footer><Footer /></footer>
             </Router>
         </>
     )

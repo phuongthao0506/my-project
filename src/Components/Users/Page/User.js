@@ -10,29 +10,25 @@ import Contact from './Contact'
 import Login from './Login'
 import Registration from './Registration'
 import Account from './Account'
+import Wallets from './Wallets'
 
 export default function User() {
     return (
         <>
             <Router>
-                <header style={{backgroundColor: '#41225d'}}>
-                    <div className="container">
-                        <Header/>
-                    </div>
-                </header>
-                <article>
-                        <Switch>
-                            <Route path="/my-project" exact component={Home} />
-                            <Route path="/transaction" component={Transaction} />
-                            <Route path="/coinnew" component={Coinnew} />
-                            <Route path="/news" component={News} />
-                            <Route path="/contact" component={Contact} />
-                            <Route path="/login" component={Login} />
-                            <Route path="/registration" component={Registration} />
-                            <Route path="/account" component={Account} />
-                        </Switch>
-                </article>
-                <footer><Footer /></footer>
+                <Header/>
+                    <Switch>
+                        <Route path="/my-project" exact component={Home} />
+                        <Route path="/transaction" component={Transaction} />
+                        <Route path="/coinnew" component={Coinnew} />
+                        <Route path="/news" component={News} />
+                        <Route path="/contact" component={Contact} />
+                        <Route path="/login" component={Login} />
+                        <Route path="/registration" component={Registration} />
+                        <Route path="/account" component={Account} />
+                        <Route path="/wallets" component={Wallets} />
+                    </Switch>
+                <Footer />
             </Router>
         </>
     )

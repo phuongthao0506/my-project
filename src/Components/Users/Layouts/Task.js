@@ -7,7 +7,7 @@ export default function Task() {
             <div className="container">
                 <div className="row">
                     <div className="col-6">
-                        <Link to="/wallets" className="text-white text-decoration-none nav-link">Số dư VDNR : 10,000,000,000 vnđ</Link>
+                        <Link to="/wallets" className="text-white text-decoration-none nav-link">Số dư VDNR : 0 | Số dư BTC: 1</Link>
                     </div>
                     <div className="col-6 text-right">
                         <div className="row">

@@ -16,7 +16,7 @@ export default function Menu() {
                     <div className="col-9 text-right">
                         <div className="collapse navbar-collapse mr-auto" id="collapsibleNavId">
                             <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
-                                <Link to="/">
+                                <Link to="/my-project">
                                     <li className="nav-item active">
                                         <span className="nav-link text-white">Trang chủ<span className="sr-only">(current)</span></span>
                                     </li>

@@ -22,7 +22,7 @@ export default function User() {
                 </header>
                 <article>
                         <Switch>
-                            <Route path="/" exact component={Home} />
+                            <Route path="/my-project" exact component={Home} />
                             <Route path="/transaction" component={Transaction} />
                             <Route path="/coinnew" component={Coinnew} />
                             <Route path="/news" component={News} />

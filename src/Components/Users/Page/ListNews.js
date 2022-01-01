@@ -10,7 +10,7 @@ export default function ListNews() {
                     <h3>Tin tức</h3>  
                     <p>Cập nhật chính xác hàng ngày, giúp bạn nắm bắt cơ hội, 
                         ra quyết định đầu tư tiền ảo chính xác và nhanh chóng hơn bao giờ hết.</p>
-                    <div class="d-flex flex-wrap">
+                    <div className="d-flex flex-wrap">
                         <div className="border p-2 mr-2"><b>ALL</b></div>
                         <div className="border p-2 mr-2"><b>BTC</b></div>
                         <div className="border p-2 mr-2"><b>ETH</b></div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../../HoverNews.css'
 
 export default function ListNews() {
     return (
@@ -18,7 +19,7 @@ export default function ListNews() {
                         <div className="border p-2 mr-2"><b>XRP</b></div>
                         <div className="border p-2 mr-2"><b>EOS</b></div>
                     </div>
-                    <div>
+                    <div className="pt-4 pb-4 mt-4 border-top">
                         <div className="row">
                             <div className="col-6">
                                 Remitano.com  2 năm trước
@@ -27,9 +28,54 @@ export default function ListNews() {
                                 <span>BTC</span>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row mt-3">
                             <div className="col-12">
-                                <span>Chuyên gia: Bitcoin sẽ chạm mức “khủng” này trong năm 2022</span>
+                                <span><h5 className="hoverTitle">Chuyên gia: Bitcoin sẽ chạm mức “khủng” này trong năm 2022</h5></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-4 pb-4 mt-4 border-top">
+                        <div className="row">
+                            <div className="col-6">
+                                Remitano.com  2 năm trước
+                            </div>
+                            <div className="col-6 text-right">
+                                <span>BTC</span>
+                            </div>
+                        </div>
+                        <div className="row mt-3">
+                            <div className="col-12">
+                                <span><h5 className="hoverTitle">Chuyên gia: Bitcoin sẽ chạm mức “khủng” này trong năm 2022</h5></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-4 pb-4 mt-4 border-top">
+                        <div className="row">
+                            <div className="col-6">
+                                Remitano.com  2 năm trước
+                            </div>
+                            <div className="col-6 text-right">
+                                <span>BTC</span>
+                            </div>
+                        </div>
+                        <div className="row mt-3">
+                            <div className="col-12">
+                                <span><h5 className="hoverTitle">Chuyên gia: Bitcoin sẽ chạm mức “khủng” này trong năm 2022</h5></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-4 pb-4 mt-4 border-top">
+                        <div className="row">
+                            <div className="col-6">
+                                Remitano.com  2 năm trước
+                            </div>
+                            <div className="col-6 text-right">
+                                <span>BTC</span>
+                            </div>
+                        </div>
+                        <div className="row mt-3">
+                            <div className="col-12">
+                                <span><h5 className="hoverTitle">Chuyên gia: Bitcoin sẽ chạm mức “khủng” này trong năm 2022</h5></span>
                             </div>
                         </div>
                     </div>
